@@ -1,0 +1,23 @@
+Package: gcdl
+Type: Package
+Title: Uncertainty quantification in high-dimensional linear models incorporating graphical structures with applications to gene set analysis
+Version: 0.1.0
+Authors@R: c(person(given = "Xiao", family = "Zhang", role = c("aut", "cre"), email = "zhangxiao1994@cuhk.edu.cn"),
+             person(given = "Xiangyong", family = "Tan", role = "aut"),
+             person(given = "Xu", family = "Liu", role = "aut"))
+Author: Xiao Zhang [aut, cre], 
+        Xiangyong Tan [aut],
+        Xu Liu [aut]
+Maintainer: Xiao Zhang <zhangxiao1994@cuhk.edu.cn>
+Description: Genes function in networks are typically correlated due to their functional connectivity. We construct confidence intervals and provide $p$-values for parameters of a high-dimensional linear model incorporating graphical structures where the number of variables $p$ diverges as the number of observations. For combining the graphical information, we propose a graph-constrained desparsified LASSO (GCDL) estimator, which reduces dramatically the influence of high correlation of predictors and enjoys the advantage of faster computation and higher accuracy compared with the desparsified LASSO. 
+License: GPL (>= 2)
+Imports: mnormt, glmnet, glmgraph
+Repository: github
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression:xz
+URL: https://github.com/XiaoZhangryy/gcdl
+BugReports: https://github.com/XiaoZhangryy/gcdl/issues
+RoxygenNote: 7.3.1
+NeedsCompilation: yes
+
